@@ -1,0 +1,18 @@
+# CODEOWNERS file for Security-Checklist-Repository
+# This file specifies code owners for security-related content
+
+# Default owner for all repository content
+* @UnjustHaze11
+
+# Security policy and vulnerability information
+.github/SECURITY.md @UnjustHaze11
+.github/CODEOWNERS @UnjustHaze11
+
+# Any checklists and security documentation
+*.md @UnjustHaze11
+
+# Configuration files
+.github/ @UnjustHaze11
+*.json @UnjustHaze11
+*.yml @UnjustHaze11
+*.yaml @UnjustHaze11
