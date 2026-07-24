@@ -1,0 +1,76 @@
+# Security Checklist Repository
+
+A non-code cybersecurity reference repository for quick security reviews, system hardening, policy checks, and incident response preparation.
+
+## Project Purpose
+
+This repository provides practical security checklists for common cybersecurity work areas:
+
+- Windows hardening
+- Linux hardening
+- Password policy
+- Incident response
+- Cloud security
+
+The goal is to give students, junior analysts, system administrators, and security teams a clean reference point for repeatable security reviews.
+
+## Repository Structure
+
+```text
+security-checklist-repository/
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── .gitignore
+└── docs/
+    ├── CHECKLIST_TEMPLATE.md
+    ├── WINDOWS_HARDENING_CHECKLIST.md
+    ├── LINUX_HARDENING_CHECKLIST.md
+    ├── PASSWORD_POLICY_CHECKLIST.md
+    ├── INCIDENT_RESPONSE_CHECKLIST.md
+    ├── CLOUD_SECURITY_CHECKLIST.md
+    └── checklist_index.csv
+```
+
+## How to Use This Repository
+
+1. Open the checklist that matches the system or process being reviewed.
+2. Mark each item as complete, incomplete, not applicable, or needing follow-up.
+3. Add notes, screenshots, commands, ticket numbers, or evidence links.
+4. Track unresolved items as remediation tasks.
+5. Recheck the checklist after changes are made.
+
+## Checklist Status Key
+
+| Status | Meaning |
+|---|---|
+| Complete | Control or task is implemented and verified |
+| Incomplete | Control or task is missing |
+| Needs Review | More evidence or validation is needed |
+| Not Applicable | Item does not apply to the environment |
+
+## Priority Key
+
+| Priority | Meaning |
+|---|---|
+| P1 | High priority; address first |
+| P2 | Medium priority; address soon |
+| P3 | Lower priority; address during routine maintenance |
+
+## Recommended Use Cases
+
+- Security lab assignments
+- Entry-level cybersecurity portfolio project
+- System hardening reviews
+- SOC analyst documentation practice
+- Incident response planning
+- Internal audit preparation
+- Cloud security baseline reviews
+
+## Source Foundation
+
+These checklists are built from common cybersecurity guidance, including NIST server security guidance, NIST incident response guidance, NIST digital identity guidance, CIS Controls, Microsoft security baselines, CISA Cybersecurity Performance Goals, and CISA cloud security baseline resources.
+
+## Disclaimer
+
+This repository is for educational and defensive security use. It does not replace an official compliance assessment, legal review, risk assessment, or vendor-specific security baseline.

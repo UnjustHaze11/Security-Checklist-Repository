@@ -1,0 +1,132 @@
+# Incident Response Checklist
+
+## Purpose
+
+Use this checklist to prepare for, detect, analyze, contain, eradicate, recover from, and review cybersecurity incidents.
+
+## Scope
+
+Phishing, malware, ransomware, unauthorized access, account compromise, data exposure, suspicious logins, and endpoint alerts.
+
+## Checklist
+
+### 1. Preparation
+
+- [ ] **P1:** Maintain a written incident response plan.
+  - Evidence:
+  - Notes:
+
+- [ ] **P1:** Identify incident response roles and contact information.
+  - Evidence:
+  - Notes:
+
+- [ ] **P1:** Define incident severity levels.
+  - Evidence:
+  - Notes:
+
+- [ ] **P2:** Prepare communication templates for leadership, users, legal, and external parties.
+  - Evidence:
+  - Notes:
+
+- [ ] **P2:** Conduct tabletop exercises.
+  - Evidence:
+  - Notes:
+
+### 2. Detection and Analysis
+
+- [ ] **P1:** Validate the alert source, time, affected asset, and user.
+  - Evidence:
+  - Notes:
+
+- [ ] **P1:** Collect relevant logs before they rotate or expire.
+  - Evidence:
+  - Notes:
+
+- [ ] **P1:** Identify indicators of compromise such as IP addresses, domains, hashes, usernames, and processes.
+  - Evidence:
+  - Notes:
+
+- [ ] **P2:** Map observed behavior to MITRE ATT&CK where appropriate.
+  - Evidence:
+  - Notes:
+
+### 3. Containment
+
+- [ ] **P1:** Isolate affected systems when needed.
+  - Evidence:
+  - Notes:
+
+- [ ] **P1:** Disable or reset compromised accounts.
+  - Evidence:
+  - Notes:
+
+- [ ] **P1:** Block malicious IPs, domains, hashes, or processes when validated.
+  - Evidence:
+  - Notes:
+
+- [ ] **P2:** Preserve evidence before making destructive changes.
+  - Evidence:
+  - Notes:
+
+### 4. Eradication
+
+- [ ] **P1:** Remove malware, unauthorized tools, persistence mechanisms, or malicious rules.
+  - Evidence:
+  - Notes:
+
+- [ ] **P1:** Patch exploited vulnerabilities.
+  - Evidence:
+  - Notes:
+
+- [ ] **P2:** Remove unauthorized accounts, keys, tokens, and credentials.
+  - Evidence:
+  - Notes:
+
+### 5. Recovery
+
+- [ ] **P1:** Restore systems from trusted backups or clean images.
+  - Evidence:
+  - Notes:
+
+- [ ] **P1:** Verify affected systems are clean before reconnecting them.
+  - Evidence:
+  - Notes:
+
+- [ ] **P2:** Monitor recovered systems for recurring indicators.
+  - Evidence:
+  - Notes:
+
+### 6. Post-Incident Activity
+
+- [ ] **P1:** Complete an incident report.
+  - Evidence:
+  - Notes:
+
+- [ ] **P1:** Conduct a lessons-learned meeting.
+  - Evidence:
+  - Notes:
+
+- [ ] **P2:** Update playbooks, detections, rules, and user training based on findings.
+  - Evidence:
+  - Notes:
+
+## Incident Report Quick Fields
+
+| Field | Response |
+|---|---|
+| Incident Name |  |
+| Date/Time Detected |  |
+| Reporter |  |
+| Affected Systems |  |
+| Severity |  |
+| Initial Detection Source |  |
+| Summary |  |
+| Containment Actions |  |
+| Recovery Actions |  |
+| Lessons Learned |  |
+
+## References
+
+- National Institute of Standards and Technology. SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management.
+- National Institute of Standards and Technology. Incident Response project resources.
+- Cybersecurity and Infrastructure Security Agency. Cybersecurity Performance Goals.

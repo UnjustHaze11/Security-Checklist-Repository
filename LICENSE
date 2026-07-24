@@ -1,21 +1,28 @@
-MIT License
+# Contributing Guide
 
-Copyright (c) 2026 UnjustHaze11
+Thank you for improving this security checklist repository.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## How to Contribute
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Fork the repository.
+2. Create a new branch.
+3. Update or add a checklist item.
+4. Keep checklist language clear, defensive, and practical.
+5. Submit a pull request with a short explanation of the change.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## Checklist Writing Standards
+
+Use this format when adding a checklist item:
+
+```markdown
+- [ ] **P1:** Enable MFA for administrator accounts.
+  - Evidence:
+  - Notes:
+```
+
+## Contribution Rules
+
+- Keep content focused on defensive security.
+- Do not add exploit instructions, credential theft guidance, or unauthorized access steps.
+- Prefer vendor documentation, NIST, CISA, CIS, and other credible security sources.
+- Keep language clear enough for students and junior analysts to understand.
